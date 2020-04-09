@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="i4CgX1" name="BypassPlugin" projectType="audioplug" jucerVersion="5.4.7"
-              pluginFormats="buildAU,buildStandalone,buildVST3">
+              pluginFormats="buildAAX,buildAU,buildVST,buildVST3" cppLanguageStandard="14">
   <MAINGROUP id="UWLyZQ" name="BypassPlugin">
     <GROUP id="{99446629-B9D0-BD96-E18D-4C283A9F4EB5}" name="Source">
       <FILE id="Sr0WUL" name="PluginProcessor.cpp" compile="1" resource="0"

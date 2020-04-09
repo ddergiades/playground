@@ -23,7 +23,7 @@ BypassPluginAudioProcessor::BypassPluginAudioProcessor()
                      #endif
                        ),
 	params{ *this, nullptr, Identifier{"BypassParams"}, {
-		std::make_unique<AudioParameterBool>("bypass", "Bypass", false)
+		std::make_unique<AudioParameterBool>("bypass", "Bypass audio", false)
 	}},
 	bypassParam { nullptr }
 #endif
